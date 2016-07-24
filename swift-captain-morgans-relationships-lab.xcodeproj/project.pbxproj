@@ -9,9 +9,17 @@
 /* Begin PBXBuildFile section */
 		4C45CA8A1D3A9A7F0030A41D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C45CA891D3A9A7F0030A41D /* AppDelegate.swift */; };
 		4C45CA8F1D3A9A7F0030A41D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C45CA8D1D3A9A7F0030A41D /* Main.storyboard */; };
-		4C45CA921D3A9A7F0030A41D /* swift_captain_morgans_relationships_lab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C45CA901D3A9A7F0030A41D /* swift_captain_morgans_relationships_lab.xcdatamodeld */; };
+		4C45CA921D3A9A7F0030A41D /* CaptainMorgan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C45CA901D3A9A7F0030A41D /* CaptainMorgan.xcdatamodeld */; };
 		4C45CA941D3A9A7F0030A41D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C45CA931D3A9A7F0030A41D /* Assets.xcassets */; };
 		4C45CA971D3A9A7F0030A41D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C45CA951D3A9A7F0030A41D /* LaunchScreen.storyboard */; };
+		AFB04A9E1D4583E300E8CB72 /* Pirate+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB04A9C1D4583E300E8CB72 /* Pirate+CoreDataProperties.swift */; };
+		AFB04A9F1D4583E300E8CB72 /* Pirate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB04A9D1D4583E300E8CB72 /* Pirate.swift */; };
+		AFB04AA21D4583F800E8CB72 /* Engine+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB04AA01D4583F800E8CB72 /* Engine+CoreDataProperties.swift */; };
+		AFB04AA31D4583F800E8CB72 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB04AA11D4583F800E8CB72 /* Engine.swift */; };
+		AFB04AA61D45843100E8CB72 /* Ship+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB04AA41D45843100E8CB72 /* Ship+CoreDataProperties.swift */; };
+		AFB04AA71D45843100E8CB72 /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB04AA51D45843100E8CB72 /* Ship.swift */; };
+		AFB04AA91D45846700E8CB72 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB04AA81D45846700E8CB72 /* DataStore.swift */; };
+		AFB04AAB1D45848800E8CB72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB04AAA1D45848800E8CB72 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		4C45CA931D3A9A7F0030A41D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C45CA961D3A9A7F0030A41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C45CA981D3A9A7F0030A41D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB04A9C1D4583E300E8CB72 /* Pirate+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pirate+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AFB04A9D1D4583E300E8CB72 /* Pirate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pirate.swift; sourceTree = "<group>"; };
+		AFB04AA01D4583F800E8CB72 /* Engine+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Engine+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AFB04AA11D4583F800E8CB72 /* Engine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		AFB04AA41D45843100E8CB72 /* Ship+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ship+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AFB04AA51D45843100E8CB72 /* Ship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
+		AFB04AA81D45846700E8CB72 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		AFB04AAA1D45848800E8CB72 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +80,17 @@
 		4C45CA881D3A9A7F0030A41D /* swift-captain-morgans-relationships-lab */ = {
 			isa = PBXGroup;
 			children = (
+				AFB04AA01D4583F800E8CB72 /* Engine+CoreDataProperties.swift */,
+				AFB04AA11D4583F800E8CB72 /* Engine.swift */,
+				AFB04AA41D45843100E8CB72 /* Ship+CoreDataProperties.swift */,
+				AFB04AA51D45843100E8CB72 /* Ship.swift */,
+				AFB04A9C1D4583E300E8CB72 /* Pirate+CoreDataProperties.swift */,
+				AFB04A9D1D4583E300E8CB72 /* Pirate.swift */,
+				AFB04AA81D45846700E8CB72 /* DataStore.swift */,
 				4C45CA891D3A9A7F0030A41D /* AppDelegate.swift */,
+				AFB04AAA1D45848800E8CB72 /* ViewController.swift */,
 				4C45CA8D1D3A9A7F0030A41D /* Main.storyboard */,
-				4C45CA901D3A9A7F0030A41D /* swift_captain_morgans_relationships_lab.xcdatamodeld */,
+				4C45CA901D3A9A7F0030A41D /* CaptainMorgan.xcdatamodeld */,
 				1B885D9D1D3FE64B0029DFFC /* Resources */,
 			);
 			path = "swift-captain-morgans-relationships-lab";
@@ -148,8 +172,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C45CA921D3A9A7F0030A41D /* swift_captain_morgans_relationships_lab.xcdatamodeld in Sources */,
+				AFB04AAB1D45848800E8CB72 /* ViewController.swift in Sources */,
+				AFB04A9F1D4583E300E8CB72 /* Pirate.swift in Sources */,
+				AFB04AA71D45843100E8CB72 /* Ship.swift in Sources */,
+				4C45CA921D3A9A7F0030A41D /* CaptainMorgan.xcdatamodeld in Sources */,
+				AFB04AA21D4583F800E8CB72 /* Engine+CoreDataProperties.swift in Sources */,
 				4C45CA8A1D3A9A7F0030A41D /* AppDelegate.swift in Sources */,
+				AFB04AA31D4583F800E8CB72 /* Engine.swift in Sources */,
+				AFB04A9E1D4583E300E8CB72 /* Pirate+CoreDataProperties.swift in Sources */,
+				AFB04AA91D45846700E8CB72 /* DataStore.swift in Sources */,
+				AFB04AA61D45843100E8CB72 /* Ship+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,13 +338,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4C45CA901D3A9A7F0030A41D /* swift_captain_morgans_relationships_lab.xcdatamodeld */ = {
+		4C45CA901D3A9A7F0030A41D /* CaptainMorgan.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				4C45CA911D3A9A7F0030A41D /* swift_captain_morgans_relationships_lab.xcdatamodel */,
 			);
 			currentVersion = 4C45CA911D3A9A7F0030A41D /* swift_captain_morgans_relationships_lab.xcdatamodel */;
-			path = swift_captain_morgans_relationships_lab.xcdatamodeld;
+			path = CaptainMorgan.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
